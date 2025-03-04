@@ -1,0 +1,32 @@
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }}
+
+body{
+    background-color: #ffa8d5;
+}
+img{
+    width: 80px;
+    height: 80px;
+    animation: float 3s ease-in-out infinite;
+}
+.m{
+    width: 120px;
+    height: 60px;
+}
+p{
+    text-align:center;
+    color: #a40255;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    font-size:30px;
+    text-align:right;
+    color: #a40255;
+}
+.y{
+    border: 2px solid #a40255;
+}
